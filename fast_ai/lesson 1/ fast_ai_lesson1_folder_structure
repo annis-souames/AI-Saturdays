@@ -1,0 +1,12 @@
+!mkdir data
+!mkdir -p data/fruits/train/orange
+!mkdir -p data/fruits/train/lemon
+!mkdir -p data/fruits/valid/orange
+!mkdir -p data/fruits/valid/lemon
+!tree data
+!git clone https://github.com/Horea94/Fruit-Images-Dataset.git
+!mv Fruits-Images-Dataset fruits
+!cp -r fruits/Training/Orange/. data/fruits/train/orange/
+!cp -r fruits/Training/Lemon/. data/fruits/train/lemon/
+!cp -r fruits/Validation/Lemon/. data/fruits/valid/lemon/
+!cp -r fruits/Validation/Orange/. data/fruits/valid/orange/
